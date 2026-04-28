@@ -14,7 +14,9 @@ abstract class Vehicle {
         this.year = year;
         this.rentPerDay = rentPerDay;
     }
-
+public int getvehicleId(){
+        return vehicleId;
+    }
     public String getBrand() {
         return brand;
     }
