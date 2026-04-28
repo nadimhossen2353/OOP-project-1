@@ -1,13 +1,11 @@
 abstract class Person {
-
+private int id;
     private String name;
-    private String email;
     private String phone;
 
-    Person( String name, String email, String phone) {
-
+    Person( int id, String name, String phone) {
+this.id= id;
         this.name = name;
-        this.email = email;
         this.phone = phone;
     }
 
